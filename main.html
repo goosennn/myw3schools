@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>MyW3Schools Online Web</title>
+  <style>
+    
+    body{
+      margin:0;
+    }
+    
+    ul{
+      list-style-type:none;
+      margin:0;
+      padding:0;
+    }
+    
+    #header{
+      height:55px;
+      padding:30px 0 0 10px;
+    }
+    
+    #header h1{
+      margin:0;
+      float:left;
+      
+    }
+    
+    #header p{
+      
+      text-align:right;
+      margin:20px 10px 0 0;
+    }
+    
+   
+    
+    #navigation{
+      height:65px;
+      background-color:limegreen;
+      box-shadow:1px 1px 5px gray;
+    }
+    
+    #navigation ul{
+      margin:0;
+      padding:20px 10px;
+     
+    }
+    
+    #navigation li{
+      font-size:20px;
+      color:white;
+      letter-spacing: 3px;
+      float:left;
+      list-style-type:none;
+    }
+    
+    #navigation li:nth-child(2),#navigation li:nth-child(3){
+      margin-left:30px;
+    }
+    
+    #grid{
+      clear:left;
+      display:grid;
+      grid-template-columns:250px 1fr;
+    }
+    
+    #side{
+      border-right:1px solid gray;
+      padding:20px 10px;
+    }
+    
+    .side-head{
+      font-size:19px;
+      font-weight:bold;
+      margin-bottom:10px;
+    }
+  </style>
+</head>
+<body>
+  <!-- Header -->
+  <div id="header">
+    <h1>myw3schools<span style="color:limegreen;">.com</span></h1>
+     <p style="letter-spacing: 5px;">THE WORLD'S LARGEST WEB DEVELOPER SITE</p>
+  </div>
+  <!-- Header End -->
+  
+  <!-- Navigation -->
+  <div id="navigation">
+    <ul>
+      <li>TUTORIALS ▼</li>
+      <li>REFERENCES ▼</li>
+      <li>EXAMPLES ▼</li>
+    </ul>
+  </div>
+  <!-- Navigation End -->
+  
+  <!-- Body -->
+  <div id="grid">
+    <div id="side">
+      <ul><span class="side-head">HTML and CSS</span>
+        <li>Learn HTML</li>
+        <li>Learn CSS</li>
+        <li>Learn W3.CSS</li>
+        <li>Learn Colors</li>
+        <li>Learn Bootstrap 3</li>
+        <li>Learn Bootstrap 4</li>
+        <li>Learn Icons</li>
+        <li>Learn Graphics</li>
+        <li>Learn How To</li>
+      </ul>
+
+      <ul><span class="side-head">JavaScript</span>
+        <li>Learn JavaScript</li>
+        <li>Learn jQuery</li>
+        <li>Learn AngularJS</li>
+        <li>Learn JSON</li>
+        <li>Learn AJAX</li>
+      </ul>
+      
+      <ul><span class="side-head">Server Side</span>
+        <li>Learn SQL</li>
+        <li>Learn PHP</li>
+        <li>Learn ASP</li>
+        <li>Learn Node.js</li>
+        <li>Learn Raspberry Pi</li>
+      </ul>
+    </div>
+    
+    <div>
+      dddd
+    </div>
+  </div>
+  <!-- Body End -->
+</body>
+</html>
